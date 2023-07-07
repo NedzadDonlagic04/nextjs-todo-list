@@ -15,7 +15,11 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className + " bg-sky-50"}>{children}</body>
+            <body className={`${inter.className} bg-sky-50 h-screen flex justify-center p-7 pt-14`}>
+              <main className="app">
+                {children}
+              </main>
+            </body>
         </html>
     );
 }
