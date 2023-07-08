@@ -34,5 +34,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# custom ignores
 .env
 dev.db*
+.vscode
